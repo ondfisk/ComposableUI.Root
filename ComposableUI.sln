@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposableUI.Server", "ComposableUI\Server\ComposableUI.Server.csproj", "{6CEA937A-31CC-4D9C-B601-69B4B4FDC2D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComposableUI.Shared", "ComposableUI.Shared\ComposableUI.Shared.csproj", "{FBC8B2D7-0FF3-4E30-A635-0F50048E46AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposableUI.Client", "ComposableUI\Client\ComposableUI.Client.csproj", "{ED20C5A2-D740-4052-AE98-F9C6AF7AD8EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComposableUI.Server", "ComposableUI.Server\ComposableUI.Server.csproj", "{29BFD9FC-0EBF-4E26-8AC7-44EED33642DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposableUI.Shared", "ComposableUI\Shared\ComposableUI.Shared.csproj", "{67B2937C-5D31-47EF-BEE3-7C3BC714ED2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComposableUI.Client", "ComposableUI.Client\ComposableUI.Client.csproj", "{BEBDCE3E-B0BE-4367-9801-774C7CC4592F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6CEA937A-31CC-4D9C-B601-69B4B4FDC2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CEA937A-31CC-4D9C-B601-69B4B4FDC2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CEA937A-31CC-4D9C-B601-69B4B4FDC2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CEA937A-31CC-4D9C-B601-69B4B4FDC2D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED20C5A2-D740-4052-AE98-F9C6AF7AD8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED20C5A2-D740-4052-AE98-F9C6AF7AD8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED20C5A2-D740-4052-AE98-F9C6AF7AD8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED20C5A2-D740-4052-AE98-F9C6AF7AD8EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{67B2937C-5D31-47EF-BEE3-7C3BC714ED2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67B2937C-5D31-47EF-BEE3-7C3BC714ED2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67B2937C-5D31-47EF-BEE3-7C3BC714ED2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67B2937C-5D31-47EF-BEE3-7C3BC714ED2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC8B2D7-0FF3-4E30-A635-0F50048E46AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC8B2D7-0FF3-4E30-A635-0F50048E46AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC8B2D7-0FF3-4E30-A635-0F50048E46AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC8B2D7-0FF3-4E30-A635-0F50048E46AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BFD9FC-0EBF-4E26-8AC7-44EED33642DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BFD9FC-0EBF-4E26-8AC7-44EED33642DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BFD9FC-0EBF-4E26-8AC7-44EED33642DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BFD9FC-0EBF-4E26-8AC7-44EED33642DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBDCE3E-B0BE-4367-9801-774C7CC4592F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBDCE3E-B0BE-4367-9801-774C7CC4592F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBDCE3E-B0BE-4367-9801-774C7CC4592F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBDCE3E-B0BE-4367-9801-774C7CC4592F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

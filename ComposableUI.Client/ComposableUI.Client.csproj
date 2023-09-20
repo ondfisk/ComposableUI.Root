@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\ComposableUI.Shared.csproj" />
+    <ProjectReference Include="..\ComposableUI.Shared\ComposableUI.Shared.csproj" />
   </ItemGroup>
 
 </Project>
