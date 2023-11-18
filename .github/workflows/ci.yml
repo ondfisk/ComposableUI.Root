@@ -9,11 +9,13 @@ on:
     branches:
       - main
 
+env:
+  DOTNET_VERSION: 8.0.x
+  DOTNET_CONFIGURATION: Release
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      CONFIGURATION: Release
     permissions:
       packages: read
 
@@ -22,12 +24,12 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 7.0.x
+          dotnet-version: ${{ env.DOTNET_VERSION }}
       - name: Setup NuGet
         run: dotnet nuget add source "https://nuget.pkg.github.com/$GITHUB_REPOSITORY_OWNER/index.json" --name github --username $GITHUB_REPOSITORY_OWNER --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text
       - name: Restore dependencies
         run: dotnet restore
       - name: Build
-        run: dotnet build --no-restore --configuration ${{ env.CONFIGURATION }}
+        run: dotnet build --no-restore --configuration $DOTNET_CONFIGURATION
       - name: Test
-        run: dotnet test --no-build --configuration ${{ env.CONFIGURATION }} --verbosity normal
+        run: dotnet test --no-build --configuration $DOTNET_CONFIGURATION --verbosity normal
